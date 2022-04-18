@@ -280,7 +280,9 @@ main .s-1 article {
 }
 
 /* Section 4  */
-
+.s-4{
+      padding-bottom: 130px;
+}
 ul.cat {
       margin-top: 75px;
       margin-bottom: 95px;
@@ -333,8 +335,14 @@ ul.cat {
 }
 
 /* Section 5 */
+.s-5{
+      position: relative;
+}
 .s-5-block{
       display: flex;
+      justify-content: space-between;
+      width: 80%;
+      top: -150px;
       background-color: #0FBF61;
       gap: 50px;
       align-items: center;
@@ -342,12 +350,43 @@ ul.cat {
       border-radius: 15px;
       padding: 20px;
       box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+      position: absolute;
+      padding-top: 50px;
 }
-
+.s-5-text h1{
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 25px;
+}
+.s-5-text p{
+      font-size: 18px;
+}
 .s-5-block .s-5-svg img{
       width: 70%;
 }
 .s-5-block .buttons button{
       background-color: #fff;
       color: #0FBF61;
+}
+
+/* Section 6 */
+.s-6{
+      background-color: rgba(15, 191, 97, 0.1);;
+}
+.s-6-block{
+      padding-top: 155px;
+      padding-bottom: 70px;
+      display: flex;
+      justify-content: space-between;
+}
+.s-6-text p{
+      font-size: 18px;
+      font-weight: 500;
+}
+.s-6-icons ul{
+      display: flex;
+      gap: 20px;
+}
+.s-6-icons ul li{
+      font-size: 20px;
 }
