@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+}
+a{
+      text-decoration: none;
+}
+button{
+      border: none;
+      cursor: pointer;
+}
+ul{
+      list-style: none;
+}
+.container{
+      width: 80%;
+      margin: auto;
+}
+/* header */
+header{
+      padding-top: 20px;
+      background-color: #0FBF611A;
+}
+/* navbar */
+header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+nav .nav-item{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
+nav .nav-item li:first-child{
+      color: #0FBF61;
+}
+.nav-item li button,.a-text button{
+      padding: 12px 40px;
+      border-radius: 50px;
+      background-color: #0FBF61;
+}
+.nav-item li a{
+      color: black;
+}
+
+/* header article */
+
+header article{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 40px;
+      padding-bottom: 100px;
+}
+
+.a-text{
+      width: 45%;
+}
+.a-text h1{
+      font-size: 40px;
+      font-weight: 700;
+      margin-top: 7px;
+      line-height: 70px;
+      font-family: 'Poppins', sans-serif;
+}
+.a-text p:first-child{
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 35px;
+      color: #0FBF61;
+}
+.a-text h1+p{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      color: #494949;
+
+}
+.a-text button{
+      margin-top: 30px;
+
+}
+header article .a-img{
+      width: 40%;
+}
+article .a-img img{
+      width: 100%;
+}
+
+/* Main Sections */
