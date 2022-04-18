@@ -26,12 +26,14 @@ ul {
       width: 80%;
       margin: auto;
 }
+
 /*Sidenav*/
 
-.sidenav-span{
+.sidenav-span {
       display: none;
-    }
-    .sidenav {
+}
+
+.sidenav {
       height: 100%;
       width: 0;
       position: fixed;
@@ -42,29 +44,29 @@ ul {
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
-    }
-    
-    .sidenav a {
+}
+
+.sidenav a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 20px;
       color: #818181;
       display: block;
       transition: 0.3s;
-    }
-    
-    .sidenav a:hover {
+}
+
+.sidenav a:hover {
       color: #f1f1f1;
-    }
-    
-    .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
       position: absolute;
       top: 0;
       right: 25px;
       font-size: 36px;
       margin-left: 50px;
-    }
-    
+}
+
 
 /* header */
 header {
@@ -110,9 +112,11 @@ nav .nav-item li:first-child {
       font-weight: 500;
       transition: all 0.3s;
 }
+
 .nav-item li a:hover {
       color: #0FBF61;
 }
+
 .toggle-menu {
       position: absolute;
       right: 0;
@@ -508,13 +512,15 @@ ul.cat {
       }
 
       /* Section 5 */
-      .s-5{
+      .s-5 {
             padding-bottom: 100px;
       }
-      .s-5-block{
+
+      .s-5-block {
             flex-direction: column;
       }
-      .s-5-svg{
+
+      .s-5-svg {
             display: none;
       }
 
@@ -523,7 +529,6 @@ ul.cat {
             flex-direction: column;
             align-items: center;
             gap: 30px;
-        }
+      }
 
 }
-
