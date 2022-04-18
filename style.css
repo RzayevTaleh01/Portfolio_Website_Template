@@ -47,7 +47,7 @@ ul {
     .sidenav a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
-      font-size: 25px;
+      font-size: 20px;
       color: #818181;
       display: block;
       transition: 0.3s;
@@ -108,8 +108,11 @@ nav .nav-item li:first-child {
       color: black;
       font-size: 18px;
       font-weight: 500;
+      transition: all 0.3s;
 }
-
+.nav-item li a:hover {
+      color: #0FBF61;
+}
 .toggle-menu {
       position: absolute;
       right: 0;
