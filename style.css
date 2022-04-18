@@ -1,57 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-*{
+
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: 'Roboto', sans-serif;
 }
-a{
+
+a {
       text-decoration: none;
       color: black;
 }
-button{
+
+button {
       border: none;
       cursor: pointer;
 }
-ul{
+
+ul {
       list-style: none;
 }
-.container{
+
+.container {
       width: 80%;
       margin: auto;
 }
+
 /* header */
-header{
+header {
       padding-top: 20px;
       background-color: #0FBF611A;
 }
+
 /* navbar */
 header nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
 }
-nav .nav-item{
+
+nav .nav-item {
       display: flex;
       align-items: center;
       gap: 30px;
 }
-nav .nav-item li:first-child{
+
+nav .nav-item li:first-child {
       color: #0FBF61;
 }
-.nav-item li button,.a-text button{
+
+.nav-item li button,
+.a-text button,
+.s-4 button {
       padding: 12px 40px;
       border-radius: 50px;
       background-color: #0FBF61;
 }
-.nav-item li a{
+
+.nav-item li a {
       color: black;
 }
 
 /* header article */
 
-header article{
+header article {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -59,58 +72,67 @@ header article{
       padding-bottom: 100px;
 }
 
-.a-text{
+.a-text {
       width: 45%;
 }
-.a-text h1{
+
+.a-text h1 {
       font-size: 40px;
       font-weight: 700;
       margin-top: 7px;
       line-height: 70px;
       font-family: 'Poppins', sans-serif;
 }
-.a-text p:first-child{
+
+.a-text p:first-child {
       font-size: 30px;
       font-weight: 400;
       line-height: 35px;
       color: #0FBF61;
 }
-.a-text h1+p{
+
+.a-text h1+p {
       font-size: 18px;
       font-weight: 400;
       line-height: 30px;
       color: #494949;
 
 }
-.a-text button{
+
+.a-text button {
       margin-top: 30px;
 
 }
-header article .a-img{
+
+header article .a-img {
       width: 40%;
 }
-article .a-img img{
+
+article .a-img img {
       width: 100%;
 }
 
 /* Main Sections - S 1*/
 
-main .s-1 article{
-      padding: 100px 0 200px 0 ;
+main .s-1 article {
+      padding: 100px 0 200px 0;
       display: flex;
       justify-content: flex-end;
       gap: 150px;
 }
-.s-1 article .s-1-img{
+
+.s-1 article .s-1-img {
       display: flex;
       align-items: flex-end;
       justify-content: flex-end;
       width: 80%;
 }
-.s-1 article .s-1-text{
+
+.s-1 article .s-1-text {
       width: 100%;
 }
-.s-1 article .s-1-text h1{
+
+.s-1 article .s-1-text h1 {
       color: #0FBF61;
       font-size: 32px;
       line-height: 30px;
@@ -118,116 +140,193 @@ main .s-1 article{
       margin-bottom: 30px;
 }
 
-.s-1 article .s-1-text p{
+.s-1 article .s-1-text p {
       color: #494949;
       line-height: 30px;
       font-weight: 400;
       margin-bottom: 30px;
 }
-.s-1-text p span{
+
+.s-1-text p span {
       color: #0FBF61;
 }
-.s-1-ul{
+
+.s-1-ul {
       width: 80%;
       display: flex;
       justify-content: space-between;
 }
-.s-1-text ul{
+
+.s-1-text ul {
       display: flex;
       flex-direction: column;
       gap: 20px;
 }
-.s-1-text ul li img{
+
+.s-1-text ul li img {
       padding-right: 20px;
 }
 
 
 /* Section 2 */
-.s-2{
+.s-2 {
       padding-bottom: 150px;
 }
-.s-2 .s-2-head{
+
+.s-2 .s-2-head {
       text-align: center;
       margin-bottom: 60px;
 }
-.s-2-head h4{
+
+.s-2-head h4,
+.s-4 article .head h4 {
       font-weight: 400;
       margin-bottom: 16px;
       color: #494949;
 }
-.s-2-head h1{
+
+.s-2-head h1,
+.s-4 article .head h1 {
       color: #0FBF61;
       font-size: 30px;
 }
-.s-2 article .s-2-block{
+
+.s-2 article .s-2-block {
       display: flex;
       justify-content: space-between;
 }
-.s-2-block .s-2-item{
+
+.s-2-block .s-2-item {
       display: flex;
       gap: 30px;
 }
-.s-2-item .icon{
+
+.s-2-item .icon {
       border-radius: 22px;
       padding: 25px;
 }
-.s-2-item:nth-child(1) .icon{
+
+.s-2-item:nth-child(1) .icon {
       background: rgba(15, 191, 97, 0.2);
 }
-.s-2-item:nth-child(2) .icon{
+
+.s-2-item:nth-child(2) .icon {
       background: #2D4CFF21;
 }
-.s-2-item:nth-child(3) .icon{
+
+.s-2-item:nth-child(3) .icon {
       background: rgba(15, 191, 97, 0.05);
 }
-.s-2-item .text{
+
+.s-2-item .text {
       padding: 20px 0;
 }
-.s-2-item .text h4{
+
+.s-2-item .text h4 {
       color: #494949;
-       margin-bottom: 8px;
+      margin-bottom: 8px;
 }
-.s-2-item .text p{
+
+.s-2-item .text p {
       font-weight: 500;
 }
 
 /* Section 3 */
 
-.s-3-block{
+.s-3-block {
       display: flex;
       flex-direction: column;
       gap: 90px;
       margin-bottom: 100px;
 }
-.s-3-item{
+
+.s-3-item {
       display: flex;
       align-items: center;
       border: 1px solid #C4C4C4;
       border-radius: 30px;
 }
-.s-3-item .img{
+
+.s-3-item .img {
       position: relative;
       width: 60%;
 }
-.s-3-item img{
+
+.s-3-item img {
       position: absolute;
       top: -230px;
       width: 554px;
       height: 394px;
 }
-.s-3-item .text{
+
+.s-3-item .text {
       padding: 40px;
       width: 45%;
 
 }
-.s-3-item .text span{
+
+.s-3-item .text span {
       font-weight: 400;
       color: #494949;
 }
-.s-3-item .text h2{
+
+.s-3-item .text h2 {
       font-weight: 700;
       font-size: 35px;
       margin-bottom: 50px;
       margin-top: 36px;
 
+}
+
+/* Section 4  */
+
+ul.cat {
+      margin-top: 75px;
+      margin-bottom: 95px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+}
+
+.cat li {
+      font-size: 18px;
+      font-weight: 500;
+}
+
+.cat li a {
+      transition: all .3s;
+}
+
+.cat li a:hover {
+      text-decoration: underline;
+      color: #0FBF61;
+}
+
+.s-4-block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+}
+
+.s-4-block .s-4-item {
+      width: 45%;
+}
+
+.s-4-item img {
+      width: 100%;
+}
+
+.s-4 article .buttons {
+      display: flex;
+      justify-content: center;
+}
+
+.s-4 article button {
+      padding: 12px 64px;
+      margin-top: 110px;
+      margin-bottom: 136px;
+      color: #fff;
+      font-size: 20px;
 }
