@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *{
       margin: 0;
@@ -92,4 +92,64 @@ article .a-img img{
       width: 100%;
 }
 
-/* Main Sections */
+/* Main Sections - S 1*/
+
+main .s-1 article{
+      padding: 100px 0 200px 0 ;
+      display: flex;
+      justify-content: flex-end;
+      gap: 150px;
+}
+.s-1 article .s-1-img{
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      width: 80%;
+}
+.s-1 article .s-1-text{
+      width: 100%;
+}
+.s-1 article .s-1-text h1{
+      color: #0FBF61;
+      font-size: 32px;
+      line-height: 30px;
+      font-weight: 700;
+      margin-bottom: 30px;
+}
+
+.s-1 article .s-1-text p{
+      color: #494949;
+      line-height: 30px;
+      font-weight: 400;
+      margin-bottom: 30px;
+}
+.s-1-text p span{
+      color: #0FBF61;
+}
+.s-1-ul{
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+}
+.s-1-text ul{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+.s-1-text ul li img{
+      padding-right: 20px;
+}
+
+
+/* Section 2 */
+.s-2 .s-2-head{
+      text-align: center;
+}
+.s-2-head h4{
+      font-weight: 400;
+      margin-bottom: 16px;
+}
+.s-2-head h1{
+      color: #0FBF61;
+      font-size: 30px;
+}
