@@ -38,6 +38,7 @@ header nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: relative;
 }
 
 nav .nav-item {
@@ -59,8 +60,25 @@ nav .nav-item li:first-child {
       background-color: #0FBF61;
 }
 
+.nav-item li button {
+      font-size: 18px;
+      font-weight: 500;
+}
+
 .nav-item li a {
       color: black;
+      font-size: 18px;
+      font-weight: 500;
+}
+
+.toggle-menu {
+      position: absolute;
+      right: 0;
+      display: none;
+}
+
+.toggle-menu a {
+      font-size: 30px;
 }
 
 /* header article */
@@ -280,9 +298,10 @@ main .s-1 article {
 }
 
 /* Section 4  */
-.s-4{
+.s-4 {
       padding-bottom: 130px;
 }
+
 ul.cat {
       margin-top: 75px;
       margin-bottom: 95px;
@@ -335,10 +354,11 @@ ul.cat {
 }
 
 /* Section 5 */
-.s-5{
+.s-5 {
       position: relative;
 }
-.s-5-block{
+
+.s-5-block {
       display: flex;
       justify-content: space-between;
       width: 80%;
@@ -353,40 +373,114 @@ ul.cat {
       position: absolute;
       padding-top: 50px;
 }
-.s-5-text h1{
+
+.s-5-text h1 {
       font-size: 32px;
       font-weight: 500;
       margin-bottom: 25px;
 }
-.s-5-text p{
+
+.s-5-text p {
       font-size: 18px;
 }
-.s-5-block .s-5-svg img{
+
+.s-5-block .s-5-svg img {
       width: 70%;
 }
-.s-5-block .buttons button{
+
+.s-5-block .buttons button {
       background-color: #fff;
       color: #0FBF61;
 }
 
 /* Section 6 */
-.s-6{
-      background-color: rgba(15, 191, 97, 0.1);;
+.s-6 {
+      background-color: rgba(15, 191, 97, 0.1);
+      ;
 }
-.s-6-block{
+
+.s-6-block {
       padding-top: 155px;
       padding-bottom: 70px;
       display: flex;
       justify-content: space-between;
 }
-.s-6-text p{
+
+.s-6-text p {
       font-size: 18px;
       font-weight: 500;
 }
-.s-6-icons ul{
+
+.s-6-icons ul {
       display: flex;
       gap: 20px;
 }
-.s-6-icons ul li{
+
+.s-6-icons ul li {
       font-size: 20px;
+}
+
+@media (max-width: 900px) {
+      nav ul.nav-item {
+            display: none;
+      }
+
+      .toggle-menu {
+            display: block;
+      }
+
+      /* Header */
+
+      header article .a-img {
+            display: none;
+      }
+
+      .a-text {
+            width: 100%;
+      }
+
+      /* Section 1 */
+      .s-1 article .s-1-img {
+            display: none;
+      }
+
+      /* Section 2 */
+      .s-2 article .s-2-block {
+            flex-wrap: wrap;
+            gap: 30px;
+      }
+
+      /* Section 3 */
+      .s-3-item .img {
+            display: none;
+      }
+
+      .s-3-item .text {
+            width: 100%;
+      }
+
+      /* Section 4 */
+
+      .s-4-block .s-4-item {
+            width: 100%;
+      }
+
+      /* Section 5 */
+      .s-5{
+            padding-bottom: 100px;
+      }
+      .s-5-block{
+            flex-direction: column;
+      }
+      .s-5-svg{
+            display: none;
+      }
+
+      /* Section 6 */
+      .s-6-block {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
 }
