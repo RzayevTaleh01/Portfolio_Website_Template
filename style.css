@@ -8,6 +8,7 @@
 }
 a{
       text-decoration: none;
+      color: black;
 }
 button{
       border: none;
@@ -152,6 +153,7 @@ main .s-1 article{
 .s-2-head h4{
       font-weight: 400;
       margin-bottom: 16px;
+      color: #494949;
 }
 .s-2-head h1{
       color: #0FBF61;
@@ -187,4 +189,45 @@ main .s-1 article{
 }
 .s-2-item .text p{
       font-weight: 500;
+}
+
+/* Section 3 */
+
+.s-3-block{
+      display: flex;
+      flex-direction: column;
+      gap: 90px;
+      margin-bottom: 100px;
+}
+.s-3-item{
+      display: flex;
+      align-items: center;
+      border: 1px solid #C4C4C4;
+      border-radius: 30px;
+}
+.s-3-item .img{
+      position: relative;
+      width: 60%;
+}
+.s-3-item img{
+      position: absolute;
+      top: -230px;
+      width: 554px;
+      height: 394px;
+}
+.s-3-item .text{
+      padding: 40px;
+      width: 45%;
+
+}
+.s-3-item .text span{
+      font-weight: 400;
+      color: #494949;
+}
+.s-3-item .text h2{
+      font-weight: 700;
+      font-size: 35px;
+      margin-bottom: 50px;
+      margin-top: 36px;
+
 }
