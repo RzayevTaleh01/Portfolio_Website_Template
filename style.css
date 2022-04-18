@@ -52,7 +52,8 @@ nav .nav-item li:first-child {
 
 .nav-item li button,
 .a-text button,
-.s-4 button {
+.s-4 button,
+.s-5-block .buttons button {
       padding: 12px 40px;
       border-radius: 50px;
       background-color: #0FBF61;
@@ -329,4 +330,24 @@ ul.cat {
       margin-bottom: 136px;
       color: #fff;
       font-size: 20px;
+}
+
+/* Section 5 */
+.s-5-block{
+      display: flex;
+      background-color: #0FBF61;
+      gap: 50px;
+      align-items: center;
+      color: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.s-5-block .s-5-svg img{
+      width: 70%;
+}
+.s-5-block .buttons button{
+      background-color: #fff;
+      color: #0FBF61;
 }
