@@ -20,15 +20,26 @@
         <ul class="nav-item">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">My Work</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#work">My Work</a></li>
           <li><button>Resume</button></li>
         </ul>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">Services</a>
+          <a href="#work">My Work</a>
+        </div>
         <div class="toggle-menu">
-          <a href="#">
+          <a href="#" onclick="openNav()">
             <ion-icon name="menu-outline"></ion-icon>
           </a>
+
         </div>
+        
       </nav>
       <article class="container">
         <div class="a-text">
@@ -46,12 +57,12 @@
       </article>
     </header>
     <main>
-      <section class="s-1" id="about">
+      <section class="s-1">
         <article class="container">
           <div class="s-1-img">
             <img src="./img/s-1-img.png" alt="" />
           </div>
-          <div class="s-1-text">
+          <div class="s-1-text"  id="about">
             <h1 class="about">About Me</h1>
             <p>
               Hello! My name is Rostam Sadiqi and I am a
@@ -80,7 +91,7 @@
           </div>
         </article>
       </section>
-      <section class="s-2">
+      <section class="s-2" id="service">
         <div class="s-2-head">
           <h4>My service</h4>
           <h1>What I Do</h1>
@@ -161,7 +172,7 @@
           </div>
         </article>
       </section>
-      <section class="s-4">
+      <section class="s-4" id="work">
         <article class="container">
           <div class="head">
             <h4>Portfolio</h4>
@@ -224,5 +235,17 @@
         </article>
       </section>
     </main>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.querySelector(".toggle-menu").style.display = "none";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.querySelector(".toggle-menu").style.display = "block";
+
+      }
+    </script>
   </body>
 </html>
