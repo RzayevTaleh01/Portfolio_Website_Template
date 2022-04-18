@@ -142,8 +142,12 @@ main .s-1 article{
 
 
 /* Section 2 */
+.s-2{
+      padding-bottom: 150px;
+}
 .s-2 .s-2-head{
       text-align: center;
+      margin-bottom: 60px;
 }
 .s-2-head h4{
       font-weight: 400;
@@ -152,4 +156,35 @@ main .s-1 article{
 .s-2-head h1{
       color: #0FBF61;
       font-size: 30px;
+}
+.s-2 article .s-2-block{
+      display: flex;
+      justify-content: space-between;
+}
+.s-2-block .s-2-item{
+      display: flex;
+      gap: 30px;
+}
+.s-2-item .icon{
+      border-radius: 22px;
+      padding: 25px;
+}
+.s-2-item:nth-child(1) .icon{
+      background: rgba(15, 191, 97, 0.2);
+}
+.s-2-item:nth-child(2) .icon{
+      background: #2D4CFF21;
+}
+.s-2-item:nth-child(3) .icon{
+      background: rgba(15, 191, 97, 0.05);
+}
+.s-2-item .text{
+      padding: 20px 0;
+}
+.s-2-item .text h4{
+      color: #494949;
+       margin-bottom: 8px;
+}
+.s-2-item .text p{
+      font-weight: 500;
 }
